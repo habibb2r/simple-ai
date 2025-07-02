@@ -1,5 +1,7 @@
 import leftSide from '../../../banner-imgs/left-grid.png'
 import rightSide from '../../../banner-imgs/right-grid.png'
+import tabimg from '../../../banner-imgs/calender.png'
+
 
 const Banner = () => {
     return (
@@ -21,8 +23,11 @@ const Banner = () => {
           Get Started
         </button>
       </div>
+      
     </section>
-
+<div className='flex justify-center items-center'>
+        <img src={tabimg} alt="" />
+      </div>
         </div>
     );
 };
