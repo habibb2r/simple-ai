@@ -41,7 +41,9 @@ const NavBar = () => {
                     <NavLink className="" to="/etc" onClick={() => setMenuOpen(false)}>Integrations</NavLink>
                     <NavLink className="" to="/etc" onClick={() => setMenuOpen(false)}>Pricing</NavLink>
                     <NavLink className="" to="/etc" onClick={() => setMenuOpen(false)}>Support</NavLink>
-                    <button className="custom-button p-3 text-white font-bold rounded-full  mt-2">Get Started</button>
+                    <button className="mt-8 px-6 py-3 rounded-full text-white font-semibold bg-gradient-to-r from-[#3D58EA] via-[#22499C] to-[#8A36EA]">
+          Get Started
+        </button>
                 </div>
             )}
         </nav>

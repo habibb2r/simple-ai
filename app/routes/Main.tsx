@@ -1,9 +1,12 @@
+import Banner from "~/Components/Home/Banner/Banner"
 import NavBar from "~/Components/Navigation/NavBar"
 
 const Main = () => {
     return (
-        <div>
+        <div className="font-Montserrat">
             <NavBar />
+            <Banner />
+           
         </div>
     )
 }
