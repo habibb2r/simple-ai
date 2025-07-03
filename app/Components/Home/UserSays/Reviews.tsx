@@ -23,7 +23,7 @@ const reviews = [
 
 const Reviews = () => {
   return (
-    <div className=" rounded-2xl shadow-inner p-8 md:p-16 mx-[10%] my-[5%] border border-gray-200 relative flex justify-center items-center">
+    <div className=" rounded-2xl shadow-md p-8 md:p-16 mx-[10%] my-[5%] border border-gray-200 relative flex justify-center items-center">
       <div className="mb-8 w-1/2 px-[5%]">
         <h1 className="text-3xl md:text-4xl font-bold mb-2">
           What <span className="text-purple-600">Our Early Users</span> <span className="text-cyan-400">Are</span> <span className="text-purple-600">Saying</span>
