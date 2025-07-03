@@ -28,11 +28,11 @@ const howWorkData = [
 
 const HowWork = () => {
     return (
-        <div className='text-center px-[10%] py-10'>
-            <h1 className='font-bold text-3xl my-5'>How it <span className='text-purple-600'>Works</span></h1>
+        <div className='text-center px-[10%] py-10 mt-[5%]'>
+            <h1 className='font-bold text-3xl my-[5%]'>How it <span className='text-purple-600'>Works</span></h1>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mt-5'>
                 {howWorkData.map((item, idx) => (
-                    <div key={idx} className='border-1 border-gray-300 px-5 py-3 rounded-2xl flex flex-col items-center gap-2'>
+                    <div key={idx} className='border-1 border-gray-300 p-[10%] rounded-2xl flex flex-col items-center gap-2'>
                         <div className="p-3 bg-[#3D58EA33] rounded-full">
                             {item.icon}
                         </div>
